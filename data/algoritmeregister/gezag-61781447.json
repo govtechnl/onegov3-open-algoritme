@@ -1,0 +1,87 @@
+{
+  "source": "https://algoritmes.overheid.nl/api/algoritme/NLD/61781447",
+  "page": "https://algoritmes.overheid.nl/nl/algoritme/oorg10103/61781447/de-informatievraag-gezag-in-de-brp-api-personen",
+  "retrieved": "2026-11-24",
+  "terms": "https://algoritmes.overheid.nl/nl/footer/copyright",
+  "note": "Unmodified response of the Algoritmeregister API. Text fields contain HTML as published.",
+  "sha256": "b376a4f3a7977cce0cd8a209f2a3f24ad5841eacdd6f44a5c8ccb2e40bb289d1",
+  "record": {
+    "name": "De informatievraag Gezag in de BRP API Personen",
+    "organization": "Rijksdienst voor Identiteitsgegevens",
+    "preferred_name": null,
+    "department": null,
+    "description_short": "Dit algoritme wordt binnen de BRP API Personen gebruikt om het ouderlijk gezag over een minderjarige te leveren.",
+    "type": null,
+    "category": [
+      "Organisatie en bedrijfsvoering"
+    ],
+    "website": "https://www.rvig.nl/brp-api",
+    "status": "In gebruik",
+    "goal": "<div><p>Het doel van het algoritme is om gerichte informatie te verstrekken aan organisaties die gebruikmaken van de BRP (gebruikers), in plaats van losse gegevens die de gebruikers zelf moeten verwerken tot informatie. Het algoritme zet de losse gegevens om in informatie, op basis van regels. Die informatie wordt vanuit de centrale BRP verstrekt aan gebruikers, in plaats van de gehele set gegevens die nodig is om tot die informatie te komen. Hierdoor worden er minder gegevens verstrekt aan de BRP-gebruikers; hiermee wordt dataminimalisatie bereikt.</p><p><br></p><p>Naast dataminimalisatie kent de inzet van algoritmes in de BRP API's de volgende doelstellingen.</p><ul><li>Het voorkomen van fouten bij het gebruik van BRP-gegevens, zoals een foutieve afleiding van de aanschrijfnaam op basis van losse naamgegevens, zodat de rechten van burgers zo goed mogelijk worden beschermd.</li><li>Meer transparantie voor de burger; de burger kan ook zien hoe de gegevens zijn gebruikt doordat de afleidingsregels openbaar zijn (de afleidingsregels die gebruikers van de BRP zelf toepassen zijn veelal niet bekend en verschillen bovendien per gebruiker).</li><li>Kostenbesparingen op de lange termijn:</li><li>doordat de gebruikers van de BRP geen kopiebestanden meer hoeven te beheren;</li><li>lagere aansluitkosten op de BRP voor gebruikers;</li><li>centralisatie van regels bij de verstrekker van BRP-gegevens, in plaats van implementatie bij vele gebruikers;</li><li>Het sneller en goedkoper doorvoeren van wijzigingen in de BRP vanwege maatschappelijke ontwikkelingen. Organisaties gebruiken nu zelf -ieder voor zich- regels om informatie af te leiden uit BRP-gegevens. Met de BRP API's gebeurt het afleiden van informatie uit BRP-gegevens centraal. Door de centralisatie van deze regels is de impact van een wijziging op aangesloten overheidssystemen veel kleiner dan nu.</li></ul></div>",
+    "impact": null,
+    "proportionality": "<div><p>De inzet van het algoritme levert voordelen op omdat de centrale bewerking ervoor zorgt dat er minder (gevoelige) gegevens worden verstrekt aan de gebruikers. Dit zijn overheidsorganisaties, gemeenten en andere organisaties die een wettelijke taak uitvoeren. Door de inzet van het algoritme is er minder risico op onrechtmatige verwerking van persoonsgegevens. En de negatieve gevolgen die kunnen ontstaan door datalekken worden beperkt. De informatievraag Leeftijd wordt gebruikt door organisaties die voor de uitvoering van hun processen alleen de leeftijd van de persoon nodig hebben, en niet de geboortedatum. </p><p>Het enige alternatief voor het centraal bewerken van de persoonsgegevens door RvIG, is dat gebruikers de gegevens zelf – indien gewenst – bewerken tot informatie. Dat is de huidige praktijk. Dit betekent dat de gegevens uit de BRP eerst moeten worden verstrekt aan de gebruiker, waarna de gebruiker de gegevens zelf bewerkt tot informatie. Dit betekent een grote inbreuk op de persoonlijke levenssfeer van de burger ten opzichte van de inzet van het algoritme, omdat er meer persoonsgegevens worden verstrekt dan met het algoritme zou gebeuren. Ook brengt dit met zich mee dat iedere gebruiker zelf ‘rekenregels’ moet ontwikkelen om de gegevens – indien wenselijk – om te zetten in informatie. Dezelfde gegevens kunnen daardoor bij verschillende organisaties verschillende informatie opleveren. Bijvoorbeeld het wel of niet gebruik van een hoofdletter van het voorvoegsel bij de achternaam.</p></div>",
+    "decision_making_process": null,
+    "documentation": null,
+    "competent_authority": null,
+    "lawful_basis": "<p>De Wet Basisregistratie Personen (BRP) biedt de grondslag/kaders voor de opname (en bijhouding) en verstrekking van persoonsgegevens (Hoofdstuk 2 en 3 van de Wet BRP). De Wet BRP biedt zelf geen grondslag om gegevens te bewerken tot informatie die tot een persoon herleidbaar is. Wel biedt de Wet BRP in artikel 4.16a de mogelijkheid om bij algemene maatregel van bestuur (AMvB) tijdelijk van bepalingen in de Wet BRP af te wijken met het oog op dataminimalisatie-. Van deze mogelijkheid wordt gebruikgemaakt met het Besluit experiment dataminimalisatie BRP: deze AMvB biedt in samenhang met de Wet BRP de grondslag voor bewerking en verstrekking van informatie. Het convenant is een voorwaarde om ofwel als college van B&amp;W de API te mogen raadplegen om informatie binnengemeentelijk te verstrekken ofwel als gebruiker van de BRP (overheidsorgaan of derde) informatie verstrekt te krijgen.  </p>",
+    "iama": null,
+    "iama_description": null,
+    "dpia": null,
+    "dpia_description": null,
+    "objection_procedure": null,
+    "standard_version": "1.0",
+    "uuid": null,
+    "url": null,
+    "contact_email": "Info@rvig.nl",
+    "area": null,
+    "revision_date": null,
+    "description": null,
+    "application_url": null,
+    "publiccode": "https://github.com/BRP-API/brp-api-gezag",
+    "mprd": null,
+    "source_data": "<div><p>Burgerservicenummer persoon</p><p>Voornamen persoon</p><p>Geslachtsnaam persoon</p><p>Geboortedatum persoon</p><p>Geboorteland persoon</p><p>Documentgegevens persoon</p><p>Burgerservicenummer ouders</p><p>Voornamen ouders</p><p>Geslachtsnamen ouders</p><p>Geslacht ouders</p><p>Datum ingang familierechtelijke betrekking ouders</p><p>Burgerservicenummer (huwelijks)partner</p><p>Datum huwelijkssluiting/aangaan geregistreerd partnerschap</p><p>Plaats huwelijkssluiting/aangaan geregistreerd partnerschap</p><p>Land huwelijkssluiting/aangaan geregistreerd partnerschap</p><p>Datum ontbinding huwelijk/geregistreerd partnerschap</p><p>Plaats ontbinding huwelijk/geregistreerd partnerschap</p><p>Land ontbinding huwelijk/geregistreerd partnerschap</p><p>Reden ontbinding huwelijk/geregistreerd partnerschap</p><p>Datum overlijden</p><p>Indicatie geheim</p><p>Gemeente van inschrijving</p><p>Land vanwaar ingeschreven</p><p>Datum vestiging in Nederland</p><p>Burgerservicenummer kind</p><p>Voornamen kind</p><p>Geslachtsnaam kind</p><p>Geboortedatum kind</p><p>Indicatie gezag minderjarige</p><p>Indicatie curateleregister</p><p>Datum geldigheid Gezagsverhouding</p></div>",
+    "methods_and_models": "<div><p>De API kan gebruikt worden via verschillende ingangen:</p><ul><li>via de minderjarige bevragen wie de gezaghouders zijn;</li><li>via de meerderjarige bevragen over wie de persoon het ouderlijk gezag heeft;</li><li>via een adres(seerbaar object) bevragen welke gezagsrelaties de ingeschreven personen hebben.</li></ul><p>De gezagsrelaties worden afgeleid op basis van afleidingsregels. Zie voor de details: https://github.com/BRP-API/Haal-Centraal-BRP-bevragen/blob/master/docs/features/Stroomschema%20gezag%20in%20BRP%20API.pdf</p></div>",
+    "monitoring": null,
+    "human_intervention": "<p>De algoritmes van de BRP API's beperken zich tot informatievragen en -antwoorden die meer feitelijk van aard zijn en op een gelijke wijze bruikbaar zijn voor alle gebruikers van de BRP. Het is aan de gebruiker om, afhankelijk van de situatie waarin de informatie gebruikt wordt, aanvullende informatie op te vragen. Artikel 2.7 van het experimentbesluit dataminimalisatie bevat een regeling over het doen van een terugmelding wanneer de gebruiker twijfelt aan de juistheid van de ontvangen informatie.</p>",
+    "risks": "<div><p>Het risico op fouten in de bewerking, waardoor onjuiste informatie wordt verstrekt aan de afnemer op grond waarvan verkeerde beslissingen worden genomen, wordt afgedekt door: </p><ul><li>De mogelijkheid om af te wijken van de verstrekte informatie;</li><li>Een procedure bij de verwerker, de Rijksdienst voor Identiteitsgegevens (RvIG), voor het melden van mogelijk foutieve informatie; </li><li>Vooraf uitvoerig en gestructureerd testen.</li></ul><p>Het risico dat controle en correctie door betrokkene moeilijker wordt omdat de verstrekte informatie per transactie worden gegenereerd, wordt afgedekt door:</p><ul><li>De mogelijkheid voor de afnemer om af te wijken van de verstrekte informatie; </li><li>Een procedure bij RvIG voor het melden van mogelijk foutieve informatie.</li></ul><p>Het risico op herhaling van fouten in de bewerking doordat BZK niet bevoegd is om de basisgegevens op persoonslijst te corrigeren, wordt afgedekt door: </p><ul><li>De mogelijkheid voor de afnemer om af te wijken van de verstrekte informatie; </li><li>Een procedure bij RvIG voor het melden van mogelijk foutieve informatie.</li></ul><p>Het risico op wijziging van de rekenregels zonder dat de noodzakelijke procedures zijn gevolgd, wordt afgedekt door:</p><ul><li>Het hanteren van standaardprocedures bij het toevoegen, wijzigen of verwijderen van rekenregels;</li><li>Het volgen van het regelgevingstraject.</li></ul><p>Het risico op gefragmenteerde beoordeling van effecten van informatieverstrekking per afnemer wordt afgedekt door het maken van afspraken in het convenant.</p><p>Het risico op geautomatiseerde besluitvorming zonder menselijke tussenkomst wordt afgedekt door het maken van afspraken in het convenant.</p><p><br></p><p>Het restrisico wordt voor alle hierboven genoemde risico's ingeschat als LAAG.</p></div>",
+    "performance_standard": null,
+    "provider": "Intern ontwikkeld in samenwerking met Logius",
+    "process_index_url": "https://www.avgregisterrijksoverheid.nl/verwerkingen/uitvoering-wet-basisregistratie-personen",
+    "tags": null,
+    "source_id": null,
+    "begin_date": "2024-04",
+    "end_date": null,
+    "lawful_basis_link": null,
+    "impacttoetsen": null,
+    "source_data_link": null,
+    "publication_category": "Impactvolle algoritmes",
+    "lawful_basis_grouping": [
+      {
+        "title": "Experimentbesluit dataminimalisatie",
+        "link": "https://zoek.officielebekendmakingen.nl/stb-2024-96.html"
+      },
+      {
+        "title": "Wet Basisregistratie Personen",
+        "link": "https://wetten.overheid.nl/BWBR0033715"
+      }
+    ],
+    "impacttoetsen_grouping": [
+      {
+        "title": "Data Protection Impact Assessment (DPIA)",
+        "link": "Opvraagbaar via info@rvig.nl"
+      }
+    ],
+    "source_data_grouping": [
+      {
+        "title": "Logisch Ontwerp BRP",
+        "link": "https://www.rvig.nl/lo-brp"
+      }
+    ],
+    "lars": "61781447",
+    "create_dt": "2024-10-21T13:59:13.618613Z",
+    "language": "NLD",
+    "code": "rijksdienst-voor-identiteitsgegevens",
+    "org_id": "oorg10103",
+    "hierarchy_path": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/govtechnl/onegov3-open-algoritme/data/schemas/registration-snapshot.schema.json",
+  "title": "Snapshot of one registration in the Algoritmeregister",
+  "description": "Provenance plus the unmodified response of GET https://algoritmes.overheid.nl/api/algoritme/{language}/{lars}. Only the fields the tooling relies on are described.",
+  "type": "object",
+  "required": ["source", "retrieved", "terms", "record"],
+  "properties": {
+    "source": {"type": "string", "pattern": "^https://algoritmes\\.overheid\\.nl/api/algoritme/"},
+    "page": {"type": "string", "pattern": "^https://algoritmes\\.overheid\\.nl/"},
+    "retrieved": {"type": "string", "format": "date"},
+    "terms": {"type": "string"},
+    "note": {"type": "string"},
+    "record": {
+      "type": "object",
+      "required": ["name", "organization", "lars", "org_id", "create_dt"],
+      "properties": {
+        "name": {"type": "string"},
+        "organization": {"type": "string"},
+        "lars": {"type": "string", "pattern": "^[0-9]+$"},
+        "org_id": {"type": "string"},
+        "create_dt": {"type": "string"},
+        "publiccode": {"type": ["string", "null"]},
+        "lawful_basis_grouping": {"type": ["array", "null"]},
+        "impacttoetsen_grouping": {"type": ["array", "null"]},
+        "source_data_grouping": {"type": ["array", "null"]}
+      }
+    }
+  }
+}

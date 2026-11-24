@@ -1,0 +1,52 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install starter tooling
+        working-directory: tooling
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .[dev]
+
+      - name: Lint with ruff
+        working-directory: tooling
+        run: ruff check .
+
+      - name: Validate data, run tests
+        working-directory: tooling
+        run: pytest -v
+
+      - name: Test cases match the pinned RvIG specifications
+        working-directory: tooling
+        run: |
+          COMMIT=$(python -c "import json; print(json.load(open('../data/rvig-gezag/scenarios.json'))['source']['commit'])")
+          git init -q "$RUNNER_TEMP/brp-api-gezag"
+          git -C "$RUNNER_TEMP/brp-api-gezag" fetch -q --depth 1 https://github.com/BRP-API/brp-api-gezag "$COMMIT"
+          git -C "$RUNNER_TEMP/brp-api-gezag" checkout -q FETCH_HEAD
+          python -m openalgoritme.specs build --source "$RUNNER_TEMP/brp-api-gezag" --check
+
+      - name: Smoke-test the CLIs
+        working-directory: tooling
+        run: |
+          python -m openalgoritme.specs list --outcome niet_te_bepalen
+          python -m openalgoritme.specs show twee-ouders-met-relatie:19
+          python -m openalgoritme.register show --field human_intervention
+          python -m openalgoritme.check --as-of 2026-11-24
+          python -m openalgoritme.check --as-of 2026-11-24 --melding
+          python -m openalgoritme.explain
+          python -m openalgoritme.explain --scenario gezag-meerderjarige/meerderjarige-rni:18 --format json

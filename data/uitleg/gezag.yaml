@@ -1,0 +1,69 @@
+# Laag 1: templates for a plain-language explanation of the outcome of the gezag algorithm.
+#
+# Written for this starter repository (CC BY 4.0). They are a starting point, not a tested text:
+# try them out with residents and improve them. The tests check that every outcome type in
+# data/rvig-gezag/scenarios.json has an entry here.
+#
+# Placeholders: {kind} the minor, {houders} who has gezag (joined with "en"), {persoon} the person
+# that was asked about, {toelichting} the explanation the algorithm gives with some outcomes,
+# {organisatie} and {naam} from the registration, {bestuursorgaan} from the decision file.
+
+algoritme:
+  rol: >-
+    Wie het gezag heeft, bepaalt het algoritme '{naam}' van de overheid ({organisatie}). Dat gebeurt
+    met vaste, openbare regels en met gegevens uit de Basisregistratie Personen (BRP). Het algoritme
+    neemt zelf geen besluit.
+  # From the registration, field 'Menselijke tussenkomst' (human_intervention).
+  terugmelding: >-
+    Twijfelt {bestuursorgaan} aan de uitkomst? Dan kan {bestuursorgaan} dat melden bij de Rijksdienst
+    voor Identiteitsgegevens. Zo'n terugmelding is geregeld in artikel 2.7 van het Experimentbesluit
+    dataminimalisatie.
+  gegevens: "Deze gegevens uit de Basisregistratie Personen (BRP) zijn gebruikt:"
+  regel: "Deze regel staat in de openbare afleidingsregels van de Rijksdienst voor Identiteitsgegevens."
+
+toelichting: "De gezagsbepaling geeft hierbij deze toelichting: {toelichting}"
+in_onderzoek: >-
+  Let op: een gegeven dat nodig is om het gezag te bepalen, wordt op dit moment onderzocht. De uitkomst
+  kan daardoor nog veranderen.
+
+uitkomsten:
+  gezamenlijk_ouderlijk_gezag:
+    term: gezamenlijk ouderlijk gezag
+    uitleg: "{houders} hebben samen het gezag over {kind}."
+    betekenis: "Dit heet gezamenlijk ouderlijk gezag: de twee ouders hebben samen het gezag."
+  eenhoofdig_ouderlijk_gezag:
+    term: eenhoofdig ouderlijk gezag
+    uitleg: "{houders} heeft als enige het gezag over {kind}."
+    betekenis: "Dit heet eenhoofdig ouderlijk gezag: één ouder heeft het gezag."
+  gezamenlijk_gezag:
+    term: gezamenlijk gezag
+    uitleg: "{houders} hebben samen het gezag over {kind}."
+    betekenis: >-
+      Dit heet gezamenlijk gezag: een ouder heeft het gezag samen met iemand die geen ouder is van het
+      kind, bijvoorbeeld een partner.
+  voogdij:
+    term: voogdij
+    uitleg: "Het gezag over {kind} ligt bij {houders}."
+    betekenis: >-
+      Dit heet voogdij: iemand die geen ouder is heeft het gezag. Dat kan ook een organisatie voor
+      jeugdzorg zijn.
+  tijdelijk_geen_gezag:
+    term: tijdelijk geen gezag
+    uitleg: "Op dit moment heeft niemand het gezag over {kind}."
+    betekenis: >-
+      Dit heet tijdelijk geen gezag: er is nu niemand die het gezag kan uitoefenen, bijvoorbeeld omdat
+      de ouder met gezag is overleden.
+  niet_te_bepalen:
+    term: gezag niet te bepalen
+    uitleg: "Uit de gegevens in de BRP is niet af te leiden wie het gezag over {kind} heeft."
+    betekenis: >-
+      Dat betekent niet dat niemand het gezag heeft. Er zijn alleen niet genoeg gegevens om het met
+      zekerheid te zeggen.
+  geen_gezag:
+    term: geen gezag
+    uitleg: "{persoon} heeft volgens de gegevens geen gezag over een minderjarig kind."
+    betekenis: "Iemand kan ouder zijn van een kind zonder het gezag te hebben."
+  geen_gezaghouder:
+    term: geen gezaghouder
+    uitleg: "Volgens de gegevens is er niemand die het gezag over {kind} heeft."
+    betekenis: "Er wordt dan geen gezag gegeven, bijvoorbeeld omdat {kind} meerderjarig of overleden is."

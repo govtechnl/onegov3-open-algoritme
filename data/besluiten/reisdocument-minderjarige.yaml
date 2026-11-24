@@ -1,0 +1,58 @@
+# A decision in which the gezag outcome counts: the application for a travel document for a minor.
+#
+# Example for Laag 1, written for this starter repository (CC BY 4.0). The municipality and its
+# procedure are fictional: the texts under 'gevolg' are not the policy of a real municipality.
+# The legal facts are sourced below. Placeholders: {kind}, {houders}.
+
+id: reisdocument-minderjarige
+naam: Aanvraag van een paspoort of identiteitskaart voor een minderjarige
+titel: "Uitleg bij de aanvraag van een paspoort of identiteitskaart voor {kind}"
+bestuursorgaan: de gemeente
+perspectief: minderjarige   # the case must ask for the gezag over the child
+
+aanleiding: "U heeft een paspoort of identiteitskaart aangevraagd voor {kind}."
+waarom_gezag: >-
+  Voor een paspoort of identiteitskaart voor een kind onder de 18 jaar is toestemming nodig van iedereen
+  die het gezag over het kind heeft.
+grondslag_zin: "Dit staat in artikel 34 van de Paspoortwet."
+grondslag:
+  # Art. 34 lid 1: a declaration of consent by each person with gezag; lid 2: a court can replace the
+  # consent of the other parent. Checked via ECLI:NL:RBZWB:2026:6594, r.o. 5.6.
+  - titel: Paspoortwet, artikel 34
+    url: https://wetten.overheid.nl/BWBR0005212
+
+# What the outcome means for this application, per outcome type.
+gevolg:
+  gezamenlijk_ouderlijk_gezag: "Wij hebben daarom toestemming nodig van {houders}."
+  eenhoofdig_ouderlijk_gezag: "Wij hebben daarom alleen toestemming nodig van {houders}."
+  gezamenlijk_gezag: "Wij hebben daarom toestemming nodig van {houders}."
+  voogdij: "Wij hebben daarom toestemming nodig van {houders}."
+  tijdelijk_geen_gezag: >-
+    Er is op dit moment niemand die toestemming kan geven. Wij nemen contact met u op om te bespreken
+    wat er nodig is.
+  niet_te_bepalen: >-
+    Wij kunnen daarom niet vaststellen wie toestemming moet geven. Wij vragen u om een uittreksel uit
+    het gezagsregister. Dat kunt u gratis opvragen bij de rechtbank.
+  geen_gezaghouder: >-
+    Volgens de gegevens is er niemand van wie wij toestemming nodig hebben. Wij controleren dit en nemen
+    contact met u op als er iets nodig is.
+
+vervolg:
+  - >-
+    Wil een ouder met gezag geen toestemming geven? Dan kunt u de rechter vragen om vervangende
+    toestemming.
+
+correctie: >-
+  Klopt een gegeven over u of uw kind niet? Vraag dan de gemeente waar u staat ingeschreven om het
+  gegeven in de BRP te verbeteren.
+bezwaar: >-
+  Bent u het niet eens met het besluit op uw aanvraag? Dan kunt u binnen zes weken bezwaar maken bij
+  de gemeente.
+
+bronnen:
+  - titel: Vervangende toestemming voor een identiteitsbewijs voor een kind (Rechtspraak)
+    url: https://www.rechtspraak.nl/onderwerpen/identiteitsbewijs-kinderen/procedure
+  - titel: Uittreksel gezagsregister opvragen (Rechtspraak)
+    url: https://rechtspraak.nl/zelf-regelen/uittreksel-gezagsregister
+  - titel: Algemene wet bestuursrecht, artikel 6:7 (bezwaartermijn van zes weken)
+    url: https://wetten.overheid.nl/BWBR0005537

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/govtechnl/onegov3-open-algoritme/data/schemas/scenarios.schema.json",
+  "title": "Gezag test cases converted from the RvIG specifications",
+  "type": "object",
+  "required": ["source", "modification", "features", "scenarios"],
+  "properties": {
+    "source": {
+      "type": "object",
+      "required": ["repository", "commit", "commit_date", "path", "licence", "copyright"],
+      "properties": {
+        "repository": {"type": "string", "format": "uri"},
+        "commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "commit_date": {"type": "string", "format": "date"},
+        "licence": {"const": "EUPL-1.2"}
+      }
+    },
+    "modification": {
+      "type": "object",
+      "required": ["date", "by", "description"]
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["file", "title", "description", "rules"]
+      }
+    },
+    "scenarios": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "source", "feature", "rule", "title", "tags", "persons", "given", "when",
+                     "perspective", "outcomes"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9./-]+:[0-9]+(:[0-9]+)?$"},
+          "source": {
+            "type": "object",
+            "required": ["file", "line"],
+            "properties": {"file": {"type": "string"}, "line": {"type": "integer", "minimum": 1}}
+          },
+          "rule": {"type": ["string", "null"]},
+          "tags": {"type": "array", "items": {"type": "string"}},
+          "persons": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "bsn"],
+              "properties": {
+                "name": {"type": "string"},
+                "bsn": {"type": ["string", "null"], "pattern": "^[0-9]{9}$"}
+              }
+            }
+          },
+          "given": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["keyword", "text", "line"],
+              "properties": {
+                "keyword": {"enum": ["Gegeven", "En", "Maar", "*"]},
+                "text": {"type": "string"},
+                "line": {"type": "integer"},
+                "subject": {"type": "string"},
+                "table": {"type": "array", "items": {"type": "object"}}
+              },
+              "additionalProperties": false
+            }
+          },
+          "when": {
+            "type": "object",
+            "required": ["field", "person"]
+          },
+          "perspective": {"enum": ["minderjarige", "meerderjarige"]},
+          "outcomes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["about", "type", "parents", "third_parties", "unknown_third_party", "explanation",
+                           "under_investigation", "text"],
+              "properties": {
+                "about": {"type": ["string", "null"]},
+                "type": {"enum": ["gezamenlijk_ouderlijk_gezag", "eenhoofdig_ouderlijk_gezag", "gezamenlijk_gezag",
+                                  "voogdij", "tijdelijk_geen_gezag", "niet_te_bepalen", "geen_gezag",
+                                  "geen_gezaghouder"]},
+                "parents": {"type": "array", "items": {"type": "string"}, "maxItems": 2},
+                "third_parties": {"type": "array", "items": {"type": "string"}},
+                "unknown_third_party": {"type": "boolean"},
+                "explanation": {"type": ["string", "null"]},
+                "under_investigation": {"type": "boolean"},
+                "text": {"type": "string"}
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      }
+    }
+  }
+}
