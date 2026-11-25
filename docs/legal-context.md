@@ -1,6 +1,6 @@
 # Legal context
 
-A first map of the legal frame for this challenge, to help teams ask the right questions. It is not legal advice, and the challenge owner and mentors are the people to check it with during the hackathon.
+A first map of the legal frame for this challenge, to help teams ask the right questions. It is not legal advice, and the challenge owners and mentors are the people to check it with during the hackathon.
 
 ## The motivering
 
@@ -34,7 +34,7 @@ The gezag algorithm is not a risk selection: it derives a fact (who has gezag) f
 
 ## Questions for Laag 3
 
-These have no ready answer. They are good questions to put to the challenge owner and mentors:
+These have no ready answer. They are good questions to put to the challenge owners and mentors:
 
 1. When must a resident get the explanation: with the decision, before it, or on request?
 2. Is an explanation sent through MijnOverheid part of making the decision known, or separate information?

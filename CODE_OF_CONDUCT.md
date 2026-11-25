@@ -18,7 +18,7 @@ This challenge works with a real government algorithm about family relationships
 - **Nothing is sent.** Do not send generated messages to real algorithm owners, municipalities or residents. Drafts stay drafts.
 - **No credentials.** Never commit API keys or tokens, including GreenPT credentials. Use environment variables and keep `.env` files out of git.
 - **Honest labelling.** Do not present a simulated MijnOverheid message, chatbot answer or connection as real. Say what is simulated.
-- **Respect for the people involved.** The challenge owner and mentors give their time to help teams. Their input during the hackathon is not a formal position of their organisation.
+- **Respect for the people involved.** The challenge owners and mentors give their time to help teams. Their input during the hackathon is not a formal position of their organisation.
 
 ## Enforcement
 

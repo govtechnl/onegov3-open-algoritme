@@ -4,14 +4,15 @@
 >
 > *From algorithm registration to an explanation residents understand.*
 >
-> **Put forward by and challenge owner:** Olaf Schoelink
+> **Put forward by:** Olaf Schoelink (Minbzk)
+> **Challenge owners:** Olaf Schoelink and Krijn de Jonge (Minbzk), Tjitske Buurman, Guido Enthoven and Willeke Klinker (ECP)
 > **Contact:** [hack@govtechnl.nl](mailto:hack@govtechnl.nl)
 
 This is an English working translation of the Dutch challenge brief. The authoritative version is the Dutch brief on Alkemio.
 
 *Algorithms increasingly contribute to decisions about residents, but the motivering rarely says what role they played. Teams work with a real government algorithm with public source code, the derivation of parental authority (gezag) in the BRP API of the Rijksdienst voor Identiteitsgegevens, and build an explanation that lets residents judge for themselves whether an objection makes sense.*
 
-**Challenge owner.** Olaf Schoelink introduces the challenge at the pre-hackathon on 26 November and is present on both hackathon days for questions and to guide the teams.
+**Challenge owners.** The challenge owners come from Minbzk and ECP. Olaf Schoelink introduces the challenge at the pre-hackathon on 26 November and is present on both hackathon days for questions and to guide the teams.
 
 ---
 
@@ -158,7 +159,7 @@ The criteria with IDs (M1 to M4, S1 to S4, X1 to X4, C1 to C4) are in [docs/judg
 
 ## Why join
 
-- The winning team of this challenge pitches its solution at the challenge owner's organisation.
+- The winning team of this challenge pitches its solution to the challenge owners.
 - You work with a real government algorithm with public source code, not with a fictional example.
 - A good approach is usable for the explanation of other algorithms in the Algoritmeregister.
 - Everything you build is published as open source.

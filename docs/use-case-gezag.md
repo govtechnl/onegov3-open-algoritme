@@ -46,7 +46,7 @@ The starter links the outcome to the application for a passport or identity card
 
 - Article 34 of the [Paspoortwet](https://wetten.overheid.nl/BWBR0005212) requires a declaration of consent from each person who has gezag over the child (paragraph 1). A court can replace the consent of the other parent (paragraph 2). Checked against a 2026 ruling that cites the article: [ECLI:NL:RBZWB:2026:6594](https://omgevingsweb.nl/jurisprudentie/eclinlrbzwb20266594-rechtbank-zeeland-west-brabant-18-06-2026-c-02-446032-fa-rk-26-1323/), consideration 5.6.
 - So the gezag outcome decides whose consent the municipality needs. With *gezag niet te bepalen* the municipality cannot tell from the BRP, and has to ask for more, for example an extract from the court's *gezagsregister*, which anyone can [request for free](https://rechtspraak.nl/zelf-regelen/uittreksel-gezagsregister).
-- What the fictional municipality does per outcome is in the `gevolg` section of the decision file. That procedure is made up for the example; check with the challenge owner before presenting it as practice.
+- What the fictional municipality does per outcome is in the `gevolg` section of the decision file. That procedure is made up for the example; check with the challenge owners before presenting it as practice.
 
 Other decisions in which gezag counts are possible. Add one as a new file in `data/besluiten/` and source its legal facts.
 

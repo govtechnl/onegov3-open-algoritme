@@ -2,12 +2,12 @@
 
 > *From algorithm registration to an explanation residents understand.*
 
-This repository hosts the challenge brief, supporting documents, starter data and optional tooling for challenge 4 of **OneGov #3**, part of the OneGov Hackathon Series hosted by [GovTech NL](https://govtechnl.nl). The question was put forward by Olaf Schoelink.
+This repository hosts the challenge brief, supporting documents, starter data and optional tooling for challenge 4 of **OneGov #3**, part of the OneGov Hackathon Series hosted by [GovTech NL](https://govtechnl.nl). The question was put forward by Olaf Schoelink (Minbzk).
 
 - **Theme:** Digital autonomy and sovereignty
 - **Date:** 9-10 December 2026
 - **Location:** The Hague Tech, Den Haag
-- **Challenge owner:** Olaf Schoelink
+- **Challenge owners:** Olaf Schoelink (Minbzk), Krijn de Jonge (Minbzk), Tjitske Buurman (ECP), Guido Enthoven (ECP), Willeke Klinker (ECP)
 - **Tech partner:** [GreenPT](https://greenpt.nl/)
 - **Contact:** [hack@govtechnl.nl](mailto:hack@govtechnl.nl)
 
@@ -32,7 +32,7 @@ The full brief is in [CHALLENGE.md](CHALLENGE.md). New teams start with [START_H
 | [data/schemas/](data/schemas/) | JSON Schemas for the test cases and the registration snapshot | Available |
 | [tooling/](tooling/) | Optional Python starter: spec parser, register reader, registration check (Laag 2), explanation builder (Laag 1) | Available |
 | [submissions/](submissions/) | Where your team's work lands in your Pull Request | Empty |
-| [resources/](resources/) | Source material as delivered by the challenge owner | Follows |
+| [resources/](resources/) | Source material as delivered by the challenge owners | Follows |
 
 **The algorithm is real, the persons are not.** Every person in this repository comes from RvIG's test cases and uses a test number instead of a real citizen service number (BSN). No real personal data passes through the challenge.
 

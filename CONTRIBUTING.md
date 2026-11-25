@@ -2,7 +2,7 @@
 
 Thanks for your interest in the **OneGov #3 | Open Algoritme** challenge repository.
 
-This repo is maintained by **GovTech NL** together with the challenge owner **Olaf Schoelink** for the hackathon on **9-10 December 2026** at The Hague Tech. Contributions are welcome from organisers, mentors, participating teams and the wider community.
+This repo is maintained by **GovTech NL** together with the challenge owners from **Minbzk** and **ECP** for the hackathon on **9-10 December 2026** at The Hague Tech. Contributions are welcome from organisers, mentors, participating teams and the wider community.
 
 ## Two contribution flows
 
