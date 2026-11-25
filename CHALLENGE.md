@@ -8,7 +8,7 @@
 > **Challenge owners:** Olaf Schoelink and Krijn de Jonge (Minbzk), Tjitske Buurman, Guido Enthoven and Willeke Klinker (ECP)
 > **Contact:** [hack@govtechnl.nl](mailto:hack@govtechnl.nl)
 
-This is an English working translation of the Dutch challenge brief. The authoritative version is the Dutch brief on Alkemio.
+This is an English working translation of the Dutch challenge brief. The authoritative version is the Dutch brief: [PDF in this repository](resources/OneGov3_Challenge_Brief_Open_Algoritme.pdf), also on [Alkemio](https://alkem.io/onegov-hackathon).
 
 *Algorithms increasingly contribute to decisions about residents, but the motivering rarely says what role they played. Teams work with a real government algorithm with public source code, the derivation of parental authority (gezag) in the BRP API of the Rijksdienst voor Identiteitsgegevens, and build an explanation that lets residents judge for themselves whether an objection makes sense.*
 
@@ -166,15 +166,17 @@ The criteria with IDs (M1 to M4, S1 to S4, X1 to X4, C1 to C4) are in [docs/judg
 
 ## Submission
 
-Submissions go through **Alkemio**, the central submission and review platform for OneGov. The link to the challenge space follows.
+Submissions go through [Alkemio](https://alkem.io/onegov-hackathon), the central submission and review platform for OneGov.
+
+**Deadline: Thursday 10 December 2026, 14:00.**
 
 Each team submits, via Alkemio:
 
-1. A **link to the team's Pull Request** on this repository, one PR per team (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+1. A **link to your public repository** (your fork of this repository, or your own), with an open source licence and a README that says how to run your work.
 2. A **short explanation** of what you built, for whom and why, with your assumptions and limitations.
 3. The **pitch deck** (max. 10 slides, PDF or link).
 
-The Alkemio submission is what the jury scores during the hackathon. The Pull Request is still required: it holds the open source code.
+The Alkemio submission is your submission: the jury scores what is in Alkemio. A Pull Request into this repository is welcome but optional.
 
 ## Disclaimer
 

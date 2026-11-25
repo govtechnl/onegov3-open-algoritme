@@ -2,18 +2,19 @@
 
 Thanks for your interest in the **OneGov #3 | Open Algoritme** challenge repository.
 
-This repo is maintained by **GovTech NL** together with the challenge owners from **Minbzk** and **ECP** for the hackathon on **9-10 December 2026** at The Hague Tech. Contributions are welcome from organisers, mentors, participating teams and the wider community.
+This repo is maintained by **GovTechNL** together with the challenge owners from **Minbzk** and **ECP** for the hackathon on **9-10 December 2026** at The Hague Tech. Contributions are welcome from organisers, mentors, participating teams and the wider community.
 
 ## Two contribution flows
 
-### 1. Hackathon teams: fork, build, one PR
+### 1. Hackathon teams: build in your fork, submit on Alkemio
 
 This is the primary flow during the hackathon.
 
-1. **Fork** this repository to your team's GitHub account and clone the fork.
+1. **Fork** this repository to your team's GitHub account (or start your own repository) and clone it.
 2. Build your prototype in your fork. Put everything team-specific under `submissions/<team-name>/` (see [submissions/README.md](submissions/README.md)).
-3. Open **one Pull Request per team** into `main` of `govtechnl/onegov3-open-algoritme`.
-4. Use the [pull request template](.github/pull_request_template.md) and tick every Must box.
+3. Keep your repository **public**, under the licences below.
+4. **Submit on [Alkemio](https://alkem.io/onegov-hackathon) before Thursday 10 December, 14:00**, with a link to your repository. See [EVENT.md](EVENT.md#submission).
+5. A Pull Request into this repository is welcome but optional. If you open one, use the [pull request template](.github/pull_request_template.md).
 
 ### 2. Improving the starter repo
 
@@ -51,7 +52,7 @@ If you change a template or a decision file, regenerate the worked examples with
 
 ## Pull requests
 
-- Keep PRs focused, one logical change per PR (the one-PR-per-team rule is the hackathon exception).
+- Keep PRs focused, one logical change per PR (a team's hackathon PR is the exception).
 - Update the README, data and docs together when behaviour changes.
 - Reference the related issue if there is one.
 

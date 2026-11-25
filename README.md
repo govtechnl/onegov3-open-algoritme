@@ -2,14 +2,18 @@
 
 > *From algorithm registration to an explanation residents understand.*
 
-This repository hosts the challenge brief, supporting documents, starter data and optional tooling for challenge 4 of **OneGov #3**, part of the OneGov Hackathon Series hosted by [GovTech NL](https://govtechnl.nl). The question was put forward by Olaf Schoelink (Minbzk).
+This repository hosts the challenge brief, supporting documents, starter data and optional tooling for challenge 4 of **OneGov #3**, part of the OneGov Hackathon Series hosted by [GovTechNL](https://govtechnl.nl). The question was put forward by Olaf Schoelink (Minbzk).
 
 - **Theme:** Digital autonomy and sovereignty
 - **Date:** 9-10 December 2026
 - **Location:** The Hague Tech, Den Haag
 - **Challenge owners:** Olaf Schoelink (Minbzk), Krijn de Jonge (Minbzk), Tjitske Buurman (ECP), Guido Enthoven (ECP), Willeke Klinker (ECP)
 - **Tech partner:** [GreenPT](https://greenpt.nl/)
+- **Community, teams and submissions:** [alkem.io/onegov-hackathon](https://alkem.io/onegov-hackathon)
 - **Contact:** [hack@govtechnl.nl](mailto:hack@govtechnl.nl)
+- **Submission deadline:** Thursday 10 December 2026, 14:00, on [Alkemio](https://alkem.io/onegov-hackathon)
+- **Programme, prizes, judging and help:** [EVENT.md](EVENT.md)
+- **Organised by:** GovTechNL with Digicampus, The Hague Tech, VNG Realisatie, Provincie Zuid-Holland, Platform AI & Overheid and Gemeente Den Haag
 
 ## The challenge in one paragraph
 
@@ -31,8 +35,9 @@ The full brief is in [CHALLENGE.md](CHALLENGE.md). New teams start with [START_H
 | [data/besluiten/](data/besluiten/) | A decision in which gezag counts: a travel document for a minor | Available (fictional procedure) |
 | [data/schemas/](data/schemas/) | JSON Schemas for the test cases and the registration snapshot | Available |
 | [tooling/](tooling/) | Optional Python starter: spec parser, register reader, registration check (Laag 2), explanation builder (Laag 1) | Available |
-| [submissions/](submissions/) | Where your team's work lands in your Pull Request | Empty |
-| [resources/](resources/) | Source material as delivered by the challenge owners | Follows |
+| [submissions/](submissions/) | Where your team's work goes if you build in a fork of this repository | Empty |
+| [resources/OneGov3_Challenge_Brief_Open_Algoritme.pdf](resources/OneGov3_Challenge_Brief_Open_Algoritme.pdf) | The Dutch challenge brief (authoritative) | Available (v1.0) |
+| [resources/](resources/) | Source material: the Dutch brief; pre-hackathon slides follow | Available |
 
 **The algorithm is real, the persons are not.** Every person in this repository comes from RvIG's test cases and uses a test number instead of a real citizen service number (BSN). No real personal data passes through the challenge.
 
@@ -80,11 +85,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#licensing-of-contributions) for the canoni
 
 ## Contributing
 
-Issues and pull requests are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). During the hackathon the rule is **one PR per team**.
+Issues and pull requests are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). Team submissions go through [Alkemio](https://alkem.io/onegov-hackathon); a Pull Request from your team is welcome but optional.
 
 ## Submission
 
-Submissions go through **Alkemio**. Each team submits a link to its Pull Request on this repo, a short explanation of what it built, for whom and why, and the pitch deck. See [CHALLENGE.md](CHALLENGE.md#submission).
+Submit on [Alkemio](https://alkem.io/onegov-hackathon) before **Thursday 10 December 2026, 14:00**, with a link to your public repository (your fork or your own), a short explanation of your approach, assumptions and limitations, and your pitch deck. A Pull Request into this repository is optional. See [CHALLENGE.md](CHALLENGE.md#submission) and [EVENT.md](EVENT.md#submission).
 
 ## Disclaimer
 

@@ -4,7 +4,7 @@
 
 ## Type of contribution
 
-- [ ] **Hackathon team submission** (one PR per team, fork, PR into `main`)
+- [ ] **Hackathon team contribution** (optional: your official submission is on Alkemio)
 - [ ] Starter-repo improvement (docs, data, tooling, CI)
 - [ ] Bug fix
 - [ ] Other (describe)

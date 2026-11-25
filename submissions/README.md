@@ -1,6 +1,6 @@
 # Submissions
 
-Each team puts its work in its own folder in its fork, and opens **one Pull Request** into `main`.
+If you build in a fork of this repository, put your team's work in its own folder. Your submission is the entry on [Alkemio](https://alkem.io/onegov-hackathon) with a link to your public repository; a Pull Request into `main` is welcome but optional.
 
 ```
 submissions/
@@ -13,4 +13,4 @@ submissions/
     LICENSE            only if you use a licence other than the repo defaults
 ```
 
-The structure is a suggestion; the PR template checklist is what counts.
+The structure is a suggestion. What counts is the Must list in [docs/judging-criteria.md](../docs/judging-criteria.md).

@@ -51,4 +51,4 @@ Using another language? Fine. Read [data/rvig-gezag/scenarios.json](data/rvig-ge
 - The gezag outcome and the facts come from the rules and the data, not from a prompt. If an LLM writes text, say where, and keep a person or a test between the model and the resident.
 - Templates and rules are explicit and testable; put your work in `submissions/<team-name>/`.
 - Do not send generated messages to real algorithm owners or residents.
-- One Pull Request per team, using the [PR template](.github/pull_request_template.md).
+- Keep your repository public with an open source licence, and submit on [Alkemio](https://alkem.io/onegov-hackathon) before **Thursday 10 December, 14:00**. A Pull Request here is optional.

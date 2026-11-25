@@ -11,7 +11,7 @@ A submission that fails any Must criterion is not a valid submission, regardless
 | M1 | The prototype shows, for at least one concrete decision, how an understandable motivering comes about. | A demo from case to motivering for a named decision, for example a travel document for a minor ([data/besluiten/](../data/besluiten/)) |
 | M2 | The explanation is understandable for the resident: knowable (*kenbaar*) in the sense of article 3:47 Awb, without legal jargon. | The text a resident reads, ideally tested with someone outside the team; see [legal-context.md](legal-context.md) |
 | M3 | The solution works with the gezag determination from the starter repository, or with a comparable algorithm with public rules or source code. | Test cases from [data/rvig-gezag/](../data/rvig-gezag/), or a link to the other algorithm's rules or code |
-| M4 | The solution is open source and contains a short explanation of the approach. | Public PR under an OSI-approved licence (code) and CC BY 4.0 or CC0 (texts, templates, docs) |
+| M4 | The solution is open source and contains a short explanation of the approach. | Public repository, linked in Alkemio, under an OSI-approved licence (code) and CC BY 4.0 or CC0 (texts, templates, docs) |
 
 ## ⭐ Should: distinguishing qualities
 
@@ -39,3 +39,7 @@ A submission that fails any Must criterion is not a valid submission, regardless
 | C2 | A chatbot variant that stays within legal frameworks, with a clear demarcation of what counts as an answer on behalf of the municipality. | Refusals and hand-overs shown in the demo; facts only from the rules and data |
 | C3 | Attention to whether an objection makes sense, and to when in the process the explanation is offered. | The resident's journey, with the moment of the explanation and the six-week objection period |
 | C4 | The approach applied to a second algorithm from the Algoritmeregister. | A second registration through the same template; `python -m openalgoritme.register fetch` gets you started |
+
+## How judging works
+
+Musts are pass or fail. Teams pitch per challenge in a first round (10 December, 14:00-15:00), a technical jury reviews every submission in Alkemio, and the best team per challenge goes to the final, where the grand jury scores six criteria from 1 to 5. See [EVENT.md](../EVENT.md#how-judging-works).

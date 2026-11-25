@@ -17,8 +17,10 @@
 
 ## Practical notes
 
-- **Access.** Ask the organisers at [hack@govtechnl.nl](mailto:hack@govtechnl.nl) for credentials. Keep them in environment variables, never in git.
+- **Access.** Every participant can claim free API credits through GreenPT's sign-up link, shared on [Alkemio](https://alkem.io/onegov-hackathon) and at the kick-off. Documentation: [docs.greenpt.ai](https://docs.greenpt.ai/). Keep them in environment variables, never in git.
 - **Reproducibility.** Pin a model version and log prompts and responses wherever they influence what a resident sees. Those logs are part of your audit trail.
 - **Laag 3.** If a chatbot answers on behalf of a municipality, show where it refuses and where it hands over to a person.
 
-If your submission uses GreenPT or another LLM, note in the PR description **where**, **why** and **which model**.
+If your submission uses GreenPT or another LLM, note in your README and your Alkemio submission **where**, **why** and **which model**.
+
+GreenPT awards a bonus prize to a team that makes good use of its API; GreenPT selects the winner. See [EVENT.md](../../EVENT.md#prizes).
